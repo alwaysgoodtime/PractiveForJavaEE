@@ -1,0 +1,139 @@
+/*简单清除浏览器默认格式*/
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.clearfix before,.clearfix after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.clearfix{
+    zoom:1;
+}
+
+
+
+.w{
+    width:1186px;
+    margin:0 auto;
+}
+
+header{
+    padding-top: 10px;
+    padding-bottom: 13px;
+}
+
+.logo{
+    padding-left: 35px;
+    height:54px;
+    weight:190px;
+}
+
+.search{
+    height:54px;
+    padding-left: 110px;
+    weight:450px;
+    padding-right:130px;
+}
+
+.hotel-tel{
+    height:54px;
+    weight:213px;
+}
+
+.third-line{
+    list-style:none;
+}
+
+.list-head{
+    float: left;
+    height:40px;
+    background-color: rgb(254,201,0);
+}
+
+.font-menu{
+    padding-left:30px;
+    padding-right: 38px;
+    font-family: "微软雅黑";
+    font-size: 15px;
+    text-align: center;
+    line-height:40px;
+}
+
+.font-last{
+    padding-right:49px;
+    padding-bottom: 20px;
+}
+
+.icon{
+
+    width:22px;
+    height:30px;
+}
+
+.img{
+    margin-left:30px;
+}
+
+.font-line{
+    padding-left: 4px;
+    font-size: 14px;
+    padding-bottom: 13px;
+    font-family: "微软雅黑";
+}
+
+.hr{
+    border:none;
+    background-color: #E7C15E;
+    height: 3px;
+    width: 1126px;
+}
+
+.jinxuan1{
+    float:left;
+    padding-left: 25px;
+    padding-top: 20px;
+
+}
+
+.firstjx{
+    padding-left: 30px;
+}
+
+.font-belowimg{
+    font-size: 10px;
+    padding-top: 17px;
+    width:263px;
+}
+
+.money{
+    padding-top:4px;
+    color: red;
+    padding-bottom: 7px;
+}
+
+.bigimg{
+    float: left;
+    padding-left: 30px;
+    padding-top: 23px;
+}
+
+.jinxuan2{
+    float:left;
+    padding-left: 6px;
+    padding-top: 20px;
+
+}
+
+.footer{
+    background-color: rgb(225,198,6);
+}
+
+.final-font{
+    height:47px;
+    line-height: 47px;
+    text-align: center;
+}

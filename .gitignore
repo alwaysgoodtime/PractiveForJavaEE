@@ -1,0 +1,3 @@
+# Project exclude paths
+/Jedis/target/
+/out/
