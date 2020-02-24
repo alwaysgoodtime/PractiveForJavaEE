@@ -1,0 +1,14 @@
+#微服务框架，首先就要配端口和地址
+server:
+  port: 7777
+
+spring:
+  activemq:
+    broker-url: tcp://47.95.147.76:61616 #自己的MQ服务器地址
+    user: admin
+    password: admin
+  jms:
+    pub-sub-domain: false # false就是queue true=topic 默认就是队列（false）
+
+#自己定义队列名称
+myqueue: boot-activemq-queue

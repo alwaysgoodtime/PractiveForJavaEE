@@ -5,6 +5,7 @@ import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.Driver;
 import java.sql.DriverManager;
+import java.sql.Statement;
 import java.util.Properties;
 
 /**测试用properties文件的一般连接方式
@@ -27,7 +28,11 @@ public class Link{
         Class.forName(driver);
 
 
+
+
         Connection haha = DriverManager.getConnection(url, user, password);
+
+        Statement statement = haha.createStatement();
 
         System.out.println(haha);
 

@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Zookeeper" />
+        <module name="Activemq" />
+        <module name="Activemq-SpringBoot" />
         <module name="Jedis" />
+        <module name="Activemq-Spring" />
+        <module name="Activemq-SpringBootConsumer" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
+      <module name="Activemq" target="8" />
+      <module name="Activemq-Spring" target="8" />
+      <module name="Activemq-SpringBoot" target="1.8" />
+      <module name="Activemq-SpringBootConsumer" target="1.8" />
       <module name="Jedis" target="1.5" />
+      <module name="Zookeeper" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Activemq-SpringBoot" options="-parameters" />
+      <module name="Activemq-SpringBootConsumer" options="-parameters" />
+    </option>
   </component>
 </project>

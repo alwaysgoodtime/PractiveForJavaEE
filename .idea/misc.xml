@@ -4,6 +4,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Jedis/pom.xml" />
+        <option value="$PROJECT_DIR$/Activemq/pom.xml" />
+        <option value="$PROJECT_DIR$/Activemq-Spring/pom.xml" />
+        <option value="$PROJECT_DIR$/Activemq-SpringBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/Activemq-SpringBootConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/Zookeeper/pom.xml" />
       </list>
     </option>
   </component>
