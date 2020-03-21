@@ -16,11 +16,11 @@ class Ticket implements Runnable{
                 System.out.println("卖了第"+ ticket-- +"票"+"还剩票数"+ticket);
             }
         }
-        synchronized (Ticket.class){//也可以用它的类来充当所，这也是个对象，而且唯一
-            for (int j = 0; ticket > 0; j++) {
-                System.out.println("卖了第"+ ticket-- +"票"+"还剩票数"+ticket);
-            }
-        }
+//        synchronized (Ticket.class){//也可以用它的类来充当所，这也是个对象，而且唯一
+//            for (int j = 0; ticket > 0; j++) {
+//                System.out.println("卖了第"+ ticket-- +"票"+"还剩票数"+ticket);
+//            }
+//        }
     }
 }
 

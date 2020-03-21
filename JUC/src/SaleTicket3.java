@@ -18,13 +18,17 @@ class MyThread3 implements Callable<Object> {
 
 
 public class SaleTicket3 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         Callable a = new MyThread3();
 
         FutureTask futureTask = new FutureTask(a);
 
         new Thread(futureTask).start();
+
+        System.out.println(futureTask.get());
+        System.out.println(futureTask.get());
+        System.out.println(futureTask.get());//其中的a，只会执行一次
 
         System.out.println(Thread.currentThread().getName()+"来啦");
     }

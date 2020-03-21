@@ -3,5 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Activemq-SpringBoot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Activemq-SpringBootConsumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JVM/src/StrongRef.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Netty/src/main/java/NettyClientHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Netty/src/main/java/NettyServerHandler.java" charset="UTF-8" />
   </component>
 </project>

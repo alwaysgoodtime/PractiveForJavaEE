@@ -19,7 +19,6 @@ public class MapSearch {
         LinkedList<Object> objects = new LinkedList<>();
 
 
-
         //线程安全的map，已被弃用
         Hashtable hashtable = new Hashtable();
     }

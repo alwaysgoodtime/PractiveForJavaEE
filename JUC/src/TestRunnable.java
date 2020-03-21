@@ -3,6 +3,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
 /**
+ * Callable接口测试
  * @author goodtime
  * @create 2020-02-15 1:40 下午
  */
@@ -34,9 +35,10 @@ public class TestRunnable {
         FutureTask<Integer> integerFutureTask = new FutureTask<Integer>(new Me2());
         new Thread(integerFutureTask,"f").start();
         new Thread(integerFutureTask,"e").start();
+
         Integer integer = null;
         try {
-            integer = integerFutureTask.get();
+            integer = integerFutureTask.get();//同一个任务（Me的实例对象），只会执行一次，返回一个1
         } catch (InterruptedException e) {
         } catch (ExecutionException e) {
             e.printStackTrace();

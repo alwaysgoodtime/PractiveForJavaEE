@@ -1,6 +1,5 @@
-import com.sun.corba.se.spi.activation._ServerImplBase;
-
 /**
+ * 练习线程通信，传统synchronized方法
  * @author goodtime
  * @create 2020-02-15 1:05 上午
  */
@@ -31,6 +30,13 @@ class A {
 
     public int getNumber() {
         return number;
+    }
+
+    /**
+     * @author goodtime
+     * @create 2020-03-07 7:21 下午
+     */
+    public static class B {
     }
 }
 

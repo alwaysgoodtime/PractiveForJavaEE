@@ -30,9 +30,13 @@ public class SaleTicket4 {
 
         a.execute(myThread4);
 
+        executorService.submit(myThread4);//这样也可以创建线程
+
         System.out.println(Thread.currentThread().getName()+"来啦");
 
         a.shutdown();//记得关线程池，否则程序一直开着
+
+        //一个线程不能被调用两次，但一个实现runnable的run方法可以执行多次，因为每次执行，都是不同线程去实现的
     }
 
 }

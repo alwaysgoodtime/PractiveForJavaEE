@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/Activemq-SpringBoot/pom.xml" />
         <option value="$PROJECT_DIR$/Activemq-SpringBootConsumer/pom.xml" />
         <option value="$PROJECT_DIR$/Zookeeper/pom.xml" />
+        <option value="$PROJECT_DIR$/Netty/pom.xml" />
+        <option value="$PROJECT_DIR$/DesignModel/pom.xml" />
       </list>
     </option>
   </component>

@@ -18,6 +18,12 @@ public class CollectionSecurity {
         Object pop = objects.pop();
         System.out.println(pop);
 
+        HashSet hashSet = new HashSet();
+        char ss = 'a';
+
+        LinkedList<Object> objects1 = new LinkedList<>();
+        ArrayList<Object> objects2 = new ArrayList<>();
+
         List a = new CopyOnWriteArrayList<>();//用并发包下的CopyOnWriteArrayList，保证线程安全，效率最高
         List b = new Vector();//原来的容器，线程安全，synchronized
         List c = Collections.synchronizedList(new ArrayList<>());//用collections的工具类保证线程安全

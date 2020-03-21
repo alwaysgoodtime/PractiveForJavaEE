@@ -15,12 +15,13 @@ public class TestCyclicBarrier {
             new Thread(() -> {
                 System.out.println("第"+temp+"颗龙珠");
                 try {
-                    cyclicBarrier.await();
+                       cyclicBarrier.await();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } catch (BrokenBarrierException e) {
                     e.printStackTrace();
                 }
+                System.out.println("龙珠收集完成");
             },String.valueOf(i)).start();
         }
     }

@@ -26,6 +26,7 @@ public class SaleTicket2 {
 
         me.start();
 
+
         for (int i = 0; i < 100; i++) {
             System.out.println(Thread.currentThread().getName()+"卖"+i);
         }
